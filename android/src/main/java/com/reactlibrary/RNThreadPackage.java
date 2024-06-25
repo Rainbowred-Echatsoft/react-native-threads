@@ -20,6 +20,9 @@ public class RNThreadPackage implements ReactPackage {
         this.additionalThreadPackages = additionalThreadPackages;
     }
 
+    public RNThreadPackage() {
+    }
+
     @Override
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Collections.emptyList();
